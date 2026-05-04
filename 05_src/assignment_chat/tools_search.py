@@ -15,8 +15,8 @@ from dotenv import load_dotenv
 import os
 
 
-load_dotenv()
-load_dotenv(".secrets")
+load_dotenv('../../05_src/.secrets')
+load_dotenv('../../05_src/.env')
 
 vector_db_client_url="http://localhost:8000"
 chroma = chromadb.HttpClient(host=vector_db_client_url)

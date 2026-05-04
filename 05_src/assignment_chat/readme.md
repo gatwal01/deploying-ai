@@ -22,7 +22,7 @@ The file main.py contains the llm model calls that controls the chat. Tools are 
 
 + This simple implementation is based on our Pitchfork exercise and the tools_music.py example in the course_chat folder.
 + The tool is also imported from its tools_*.py file.
-+ Needs the Docker implementation of ChromaDB and Postgres be running with the persistent data and assuming the embeddings are already there.
++ Needs the Docker implementation of ChromaDB and Postgres be running with the persistent data and assuming the embeddings are already imported.
 
 ### Service 3: Your Choice
 
